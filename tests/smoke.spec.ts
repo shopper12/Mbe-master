@@ -1,0 +1,1 @@
+import {test,expect} from '@playwright/test';test('landing does not expose answer content',async({page})=>{await page.goto('/');await expect(page.getByText('하나의 쟁점, 두 개의 법체계')).toBeVisible();await expect(page.getByText('모범답안',{exact:true})).toHaveCount(0)});

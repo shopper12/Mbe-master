@@ -1,0 +1,1 @@
+self.addEventListener('install',()=>self.skipWaiting());self.addEventListener('activate',event=>event.waitUntil(self.clients.claim())); // Do not cache authentication, question answers or private records. Offline syncing is not yet implemented.

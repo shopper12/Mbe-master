@@ -1,0 +1,26 @@
+{
+  "name": "mbe-master",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "playwright test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "@supabase/supabase-js": "2.119.2"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.19.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@playwright/test": "1.58.2"
+  }
+}
